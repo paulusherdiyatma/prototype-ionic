@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <link rel="stylesheet" href="lib/Swiper/dist/css/swiper.min.css">
+    <script src="lib/Swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/Swiper/dist/js/swiper.jquery.min.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.config.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/app.route.js"></script>
+
+    <!--root-->
+    <script src="modules/root/controllers/root.controller.js"></script>
+
+    <!--welcome-->
+    <script src="modules/welcome/controllers/welcome.controller.js"></script>
+
+    <!--user-->
+    <script src="modules/user/controllers/login.controller.js"></script>
+
+
+</head>
+
+<body ng-app="app">
+    <ui-view></ui-view>
+</body>
+
+</html>
